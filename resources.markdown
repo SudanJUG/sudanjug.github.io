@@ -9,6 +9,6 @@ permalink: /resources/
 - [Eclipse](https://www.eclipse.org/ide/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-#### Java
+### Java
 foojay — a place for friends of OpenJDK
 [foojay.io](https://foojay.io)
