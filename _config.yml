@@ -1,0 +1,13 @@
+title: SudanJUG
+email: sudanjug@gmail.com
+description: >-
+  Sudan Java USer Group.
+baseurl: "/"
+url: "https://sudanjug.github.io"
+twitter_username: SudanJUG
+github_username:  SudanJUG
+
+theme: minima
+#plugins:
+#  - jekyll-feed
+
