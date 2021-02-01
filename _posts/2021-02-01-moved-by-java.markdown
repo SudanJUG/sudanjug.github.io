@@ -2,7 +2,7 @@
 layout: post
 title:  "Our world. Moved by Java! - عالمنا يتقدم بجافا"
 date:   2021-02-01 22:30:23 +0200
-categories: jekyll update
+categories: blog sudanjug
 published: true
 ---
 
