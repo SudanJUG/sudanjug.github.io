@@ -22,5 +22,5 @@ From embedded systems all the way to enterprise environments, java is everywhere
 
 #### Follow us
 - Site [sudanjug.github.io](https://sudanjug.github.io)
-- Twitter [@SudanJUG](https://twitter/SudanJUG)
+- Twitter [@SudanJUG](https://twitter.com/SudanJUG)
 - Facebook [SudanJUG](https://www.facebook.com/SudanJug-100201168757194)
