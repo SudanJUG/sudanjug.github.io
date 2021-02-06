@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to write a post on SudanJUG Blog - كيف تكتب موضوع علي مدونة موقع مستخدمي جافا"
+title:  "How to write a post on SudanJUG's blog - كيف تكتب موضوع علي مدونة موقع مستخدمي جافا"
 date:   2021-02-05 22:30:23 +0200
 categories: blog sudanjug
 author: Ghazy Abdallah
