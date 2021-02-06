@@ -11,7 +11,7 @@ facebook_username: SudanJug-100201168757194
 #paginate_path: "/blog/page:num/"
 disqus:
   shortname: sudanjug
-google_analytics: G-MJYZRFRQKY
+google_analytics: UA-189064620-1
 theme: minima
 #plugins:
 #  - jekyll-feed

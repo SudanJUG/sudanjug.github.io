@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "SudanJUG Blog - مدونة موقع مستخدمي جافا"
+title:  "How to write a post on SudanJUG Blog - كيف تكتب موضوع علي مدونة موقع مستخدمي جافا"
 date:   2021-02-05 22:30:23 +0200
 categories: blog sudanjug
 author: Ghazy Abdallah
 published: true
 ---
 
-### SudanJUG Blog
+### How to write a post on SudanJUG's blog
 
 Did you know [sudanjug.github.io](https://sudanjug.github.io) website is completly open source? and that anyone can post on the blog section? all you need is just a little bit knowledge in Git and Github, if you don't you can use this [guide](https://guides.github.com/activities/forking/) along the steps.
 
@@ -32,11 +32,11 @@ your-post-content-here
 6. [Save](https://guides.github.com/activities/forking/#making-changes) your file in Git.
 7. Do a [pull request](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. A maintainer will review and accept your pull request.
-9. Your post is now live 🎉.
+9. Your post is now live 🎉 see it [here]({% link blog.html %}).
 
 ---
 
-### مدونة موقع مستخدمي جافا
+### كيف تكتب موضوع علي مدونة موقع مستخدمي جافا
 
 هل تعلم ان [هذا الموقع](https://sudanjug.github.io) مفتوح المصدر بشكل كامل؟ وانه يمكن لاي شخص  نشر مواضيع علي المدونة؟ كل ماتحتاجة هو القليل من المعرفة ب قيت و قيت هب، اذا كنت لاتملك المعرفة فيمكنك الاستعانة بهذا [الدليل](https://guides.github.com/activities/forking/).
 
@@ -62,6 +62,6 @@ your-post-content-here
 6. قم [بحفظ](https://guides.github.com/activities/forking/#making-changes) الملف علي المستودع.
 7. قم بانشاء [طلب دمج](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. سنقوم بمراجعة الطلب والموافقة عليه.
-9. تهانينا 🎉.
+9. تهانينا 🎉 اطلع عليها [هنا]({% link blog.html %}).
 
 #SudanJUG #MovedbyJava
