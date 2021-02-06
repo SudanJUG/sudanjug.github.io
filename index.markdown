@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 ![cover-image](/assets/images/cover.png)

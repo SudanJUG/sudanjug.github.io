@@ -4,9 +4,14 @@ description: >-
   Sudan Java User Group (SudanJUG).
 baseurl: "/"
 url: "https://sudanjug.github.io"
-twitter_username: SudanJUG
 github_username:  SudanJUG
-
+twitter_username: SudanJUG
+facebook_username: SudanJug-100201168757194
+#paginate: 5
+#paginate_path: "/blog/page:num/"
+disqus:
+  shortname: sudanjug
+google_analytics: G-MJYZRFRQKY
 theme: minima
 #plugins:
 #  - jekyll-feed
