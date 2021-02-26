@@ -9,6 +9,7 @@ a community where java users can come together, share knowledge, have fun and co
 
 ### Join us
 - Group (Mailing list) [groups.io/g/SudanJUG](https://groups.io/g/SudanJUG)
+- [Blog]({% link blog.html %})
 
 ### Follow us
 - Twitter [@SudanJUG](https://twitter.com/SudanJUG)
