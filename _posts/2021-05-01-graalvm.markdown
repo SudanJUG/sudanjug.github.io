@@ -8,6 +8,7 @@ published: true
 ---
 
 
+
 ## GraalVM
 
 [GraalVM](https://www.graalvm.org) is a high-performance JDK distribution. It is designed to accelerate the execution of applications written in Java and other JVM languages while also providing runtimes for JavaScript, Ruby, Python, and a number of other popular languages. GraalVM’s polyglot capabilities make it possible to mix multiple programming languages in a single application while eliminating any foreign language call costs.
@@ -17,6 +18,7 @@ We are going to see how to run JavaScript inside a Java application using GraalV
 - [Download and install GraalVM](https://www.graalvm.org/docs/getting-started/)
 - Create a minimal maven based Java application
 - Add GraalVM SDK dependency
+
 ```xml
 <dependency>
     <groupId>org.graalvm.sdk</groupId>
@@ -25,11 +27,15 @@ We are going to see how to run JavaScript inside a Java application using GraalV
     <scope>compile</scope>
 </dependency>
 ```
+
 - Create a ```script.js``` file for our JavaScript code on ```src/main/resources```
+
 ```js
 "Running " + Graal.language;
 ```
+
 - Create a class containing our main method
+
 ```java
 package xyz.pretsa.graal;
 
@@ -54,8 +60,12 @@ public class Main {
 
 }
 ```
+
 - Run our application and see the result
+
 ```
 Result: Running JavaScript on GraalVM CE 21.0.0.2
 ```
+
+
 
