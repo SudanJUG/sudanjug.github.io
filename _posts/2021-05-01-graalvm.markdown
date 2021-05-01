@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Running JavaScript on GraalVM"
+date:   2021-05-01 17:52:23 +0200
+categories: blog graalvm
+author: Ghazy Abdallah
+published: true
+---
+
+
+## GraalVM
+
+[GraalVM](https://www.graalvm.org) is a high-performance JDK distribution. It is designed to accelerate the execution of applications written in Java and other JVM languages while also providing runtimes for JavaScript, Ruby, Python, and a number of other popular languages. GraalVM’s polyglot capabilities make it possible to mix multiple programming languages in a single application while eliminating any foreign language call costs.
+
+We are going to see how to run JavaScript inside a Java application using GraalVM.
+
+- [Download and install GraalVM](https://www.graalvm.org/docs/getting-started/)
+- Create a minimal maven based Java application
+- Add GraalVM SDK dependency
+```xml
+<dependency>
+    <groupId>org.graalvm.sdk</groupId>
+    <artifactId>graal-sdk</artifactId>
+    <version>21.0.0.2</version>
+    <scope>compile</scope>
+</dependency>
+```
+- Create a ```script.js``` file for our JavaScript code on ```src/main/resources```
+```js
+"Running " + Graal.language;
+```
+- Create a class containing our main method
+```java
+package xyz.pretsa.graal;
+
+import java.net.URL;
+import org.graalvm.polyglot.Context;
+import org.graalvm.polyglot.Source;
+import org.graalvm.polyglot.Value;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        try ( Context context = Context.create()) {
+            URL url = Main.class.getResource("/script.js");
+            Source script = Source.newBuilder("js", url).build();
+            Value value = context.eval(script);
+            System.out.println("Result: " + value.asString() + " on " + System.getProperty("java.vendor.version"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+}
+```
+- Run our application and see the result
+```
+Result: Running JavaScript on GraalVM CE 21.0.0.2
+```
+
