@@ -1,18 +1,77 @@
 title: SudanJUG
-email: sudanjug@gmail.com
-description: >-
-  Sudan Java User Group (SudanJUG).
+subtitle: Sudan Java User Group (SudanJUG)
+description: SudanJUG - Sudan Java User Group (SudanJUG)
 baseurl: "/"
 url: "https://sudanjug.github.io"
-github_username:  SudanJUG
-twitter_username: SudanJUG
-facebook_username: SudanJug-100201168757194
-#paginate: 5
-#paginate_path: "/blog/page:num/"
-disqus:
-  shortname: sudanjug
-google_analytics: UA-189064620-1
-theme: minima
-#plugins:
-#  - jekyll-feed
+repository: sudanJUG/sudanjug.github.io
+search: true
+logo: /assets/images/sudan.png
 
+comments:
+  provider: disqus
+  disqus:
+    shortname: sudanjug
+
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: UA-189064620-1
+    anonymize_ip: false # default
+
+footer:
+  links:
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/SudanJUG
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/SudanJUG
+    - label: Facebook
+      icon: fab fa-fw fa-facebook
+      url: https://facebook.com/SudanJug-100201168757194
+    - label: Linkedin
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/company/sudanjug
+
+
+
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+host: 0.0.0.0
+
+# Defaults
+
+author:
+  name     : Ghazy Abdallah
+  avatar   : /assets/images/profile.jpg
+  bio      : Java Developer & SudanJUG Founder
+  location : Khartoum, Sudan
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope-square
+      url: mailto://info@ghazy.ga
+    - label: Github
+      icon: fab fa-fw fa-github
+      url: https://github.com/aster-phoenix
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

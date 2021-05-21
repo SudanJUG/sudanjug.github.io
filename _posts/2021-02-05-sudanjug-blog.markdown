@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "How to write a post on SudanJUG's blog - كيف تكتب موضوع على مدونة موقع مستخدمي جافا"
 date:   2021-02-05 22:30:23 +0200
 categories: blog sudanjug
-author: Ghazy Abdallah
 published: true
 ---
 
@@ -20,19 +18,26 @@ The website is build using [Jekyll](https://jekyllrb.com) a static sites generat
 5. Place this snippet at the top of the file, then place your post Markdown text below it.
 ```
 ---
-layout: post
 title:  "your-blog-title"
 date:   2021-02-05 22:30:23 +0200
 categories: blog sudanjug your-category
-author: your-name
 published: true
+author:
+  name     : your-name
+  avatar   : your-avatar-link
+  bio      : your-bio
+  location : your-location
+  links:
+    - label: link-label
+      icon: link-fontawesome-icon-name
+      url: link-url
 ---
 your-post-content-here
 ```
 6. [Save](https://guides.github.com/activities/forking/#making-changes) your file in Git.
 7. Do a [pull request](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. A maintainer will review and accept your pull request.
-9. Your post is now live 🎉 see it [here]({% link blog.html %}).
+9. Your post is now live 🎉 see it [here]({% link blog.markdown %}).
 
 ---
 
@@ -50,18 +55,25 @@ your-post-content-here
 5. قم بإضافة النص أدناه أعلى الملف, ومن بعده نص الموضوع
 ```
 ---
-layout: post
 title:  "your-blog-title"
 date:   2021-02-05 22:30:23 +0200
 categories: blog sudanjug your-category
-author: your-name
 published: true
+author:
+  name     : your-name
+  avatar   : your-avatar-link
+  bio      : your-bio
+  location : your-location
+  links:
+    - label: link-label
+      icon: link-fontawesome-icon-name
+      url: link-url
 ---
 your-post-content-here
 ```
 6. قم [بحفظ](https://guides.github.com/activities/forking/#making-changes) الملف على المستودع.
 7. قم بإنشاء [طلب دمج](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. سنقوم بمراجعة الطلب والموافقة عليه.
-9. تهانينا 🎉 اطلع على موضوعك [هنا]({% link blog.html %}).
+9. تهانينا 🎉 اطلع على موضوعك [هنا]({% link blog.markdown %}).
 
 #SudanJUG #MovedbyJava

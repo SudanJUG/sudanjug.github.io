@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "Jakarta EE (Java EE), MicroProfile & Runtimes"
 date:   2021-02-26 17:52:23 +0200
 categories: blog jakarta-ee
-author: Ghazy Abdallah
 published: true
 ---
 

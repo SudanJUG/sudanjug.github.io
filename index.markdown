@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
 ![cover-image](/assets/images/cover.png)
@@ -9,7 +9,7 @@ a community where java users can come together, share knowledge, have fun and co
 
 ### Join us
 - SudanJUG's Group (Mailing list) [groups.io/g/SudanJUG](https://groups.io/g/SudanJUG)
-- SudanJUG's [Blog]({% link blog.html %})
+- SudanJUG's [Blog]({% link blog.markdown %})
 
 ### Follow us
 - Twitter [@SudanJUG](https://twitter.com/SudanJUG)

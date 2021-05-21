@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "Running JavaScript on GraalVM"
 date:   2021-05-01 17:52:23 +0200
 categories: blog graalvm
-author: Ghazy Abdallah
 published: true
 ---
 
