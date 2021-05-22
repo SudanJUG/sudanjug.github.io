@@ -15,7 +15,7 @@ comments:
 analytics:
   provider: google-gtag
   google:
-    tracking_id: UA-189064620-1
+    tracking_id: G-0M06JP700E
     anonymize_ip: false # default
 
 footer:
