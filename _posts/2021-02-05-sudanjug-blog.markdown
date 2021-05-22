@@ -16,6 +16,7 @@ The website is build using [Jekyll](https://jekyllrb.com) a static sites generat
 3. Create a markdown file inside ```_posts``` directory.
 4. Name the file in the following pattern ```YYY-MM-DD-your-blog-title.markdown``` example ```2021-02-01-moved-by-java.markdown```.
 5. Place this snippet at the top of the file, then place your post Markdown text below it.
+
 ```
 ---
 title:  "your-blog-title"
@@ -34,6 +35,7 @@ author:
 ---
 your-post-content-here
 ```
+
 6. [Save](https://guides.github.com/activities/forking/#making-changes) your file in Git.
 7. Do a [pull request](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. A maintainer will review and accept your pull request.
@@ -53,6 +55,7 @@ your-post-content-here
 4. قم بتسمية الملف بالصيغة
 ```YYYY-MM-DD-your-blog-title.markdown```
 5. قم بإضافة النص أدناه أعلى الملف, ومن بعده نص الموضوع
+
 ```
 ---
 title:  "your-blog-title"
@@ -71,6 +74,7 @@ author:
 ---
 your-post-content-here
 ```
+
 6. قم [بحفظ](https://guides.github.com/activities/forking/#making-changes) الملف على المستودع.
 7. قم بإنشاء [طلب دمج](https://guides.github.com/activities/forking/#making-a-pull-request)
 8. سنقوم بمراجعة الطلب والموافقة عليه.
